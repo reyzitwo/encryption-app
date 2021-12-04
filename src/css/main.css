@@ -1,0 +1,12 @@
+.div-center {
+    display: table;
+    margin: 0 auto;
+}
+
+.arrows {
+    display: flex;
+}
+
+.arrowColor {
+    color: var(--accent);
+}
