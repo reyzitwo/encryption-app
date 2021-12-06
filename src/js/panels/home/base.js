@@ -114,7 +114,7 @@ class HomePanelBase extends React.Component {
                             <Select
                                 name='shift'
                                 placeholder='Не выбран'
-                                options={alphabetLetters(alphabet)}
+                                options={alphabetLetters(alphabet ? 'АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ' : 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')}
                                 disabled={language === undefined}
                                 onChange={this.onChange}
                             >
